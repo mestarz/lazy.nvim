@@ -415,4 +415,6 @@ return {
     "kmontocam/nvim-conda",
     dependencies = { "nvim-lua/plenary.nvim" },
   },
+
+  require("kickstart.debug"),
 }

@@ -52,28 +52,39 @@ return {
               return vim.fn.executable("go") == 1
             end,
           },
-          "lua-language-server",
-          "vim-language-server",
-          "stylua",
-          "shellcheck",
-          "editorconfig-checker",
+
+          -- Go
           "gofumpt",
           "goimports",
           "golines",
           "golangci-lint",
           "gomodifytags",
           "gotests",
-          "impl",
-          "json-to-struct",
+
+          -- Python
+          "flask8",
+          "black",
+
+          -- Lua
+          "lua-language-server",
+          "stylua",
           "luacheck",
-          "misspell",
-          "revive",
-          "shellcheck",
-          "shfmt",
-          "staticcheck",
-          "vint",
+
+          -- TypeScript & JavaScript
           "prettierd",
           "prettier",
+
+          -- cpp & c
+          "clang-format",
+          "clangd",
+
+          -- other
+          "vim-language-server",
+          "shellcheck",
+          "editorconfig-checker",
+          "impl",
+          "json-to-struct",
+          "shfmt",
         },
         auto_update = true,
         run_on_start = true,

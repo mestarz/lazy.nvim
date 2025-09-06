@@ -62,7 +62,7 @@ return {
           "gotests",
 
           -- Python
-          "flask8",
+          "flake8",
           "black",
 
           -- Lua

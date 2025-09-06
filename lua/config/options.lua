@@ -4,4 +4,7 @@
 vim.o.shell = "/bin/bash"
 vim.o.autoindent = true
 vim.o.smartindent = true
+vim.o.tabstop = 2
+vim.o.shiftwidth = 2
+vim.o.expandtab = true
 vim.g.lazyvim_check_order = false

@@ -64,12 +64,15 @@ return {
           -- Python
           "flake8",
           "black",
+          "isort",
 
           -- Lua
           "lua-language-server",
           "stylua",
 
           -- TypeScript & JavaScript
+          "typescript-language-server",
+          "eslint-lsp",
           "prettierd",
           "prettier",
 

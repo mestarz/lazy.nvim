@@ -4,12 +4,14 @@
 vim.o.shell = "/bin/bash"
 vim.o.autoindent = true
 vim.o.smartindent = true
-vim.o.tabstop = 2
-vim.o.shiftwidth = 2
-vim.o.expandtab = true
 vim.g.lazyvim_check_order = false
 
+vim.opt.tabstop = 4 -- 一个Tab键显示为4个空格的宽度
+vim.opt.shiftwidth = 4 -- 自动缩进使用的空格数
+vim.opt.softtabstop = 4 -- 编辑时Tab键插入的空格数
+vim.opt.expandtab = true -- 将Tab键转换为空格:cite[5]
+
 vim.lsp.enable("clangd")
--- npm install -g typescript typescript-language-server
 vim.lsp.enable("ts_ls")
 vim.lsp.enable("gopls")
+vim.lsp.enable("lua_ls")

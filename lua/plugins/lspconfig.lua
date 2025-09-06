@@ -68,7 +68,6 @@ return {
           -- Lua
           "lua-language-server",
           "stylua",
-          "luacheck",
 
           -- TypeScript & JavaScript
           "prettierd",

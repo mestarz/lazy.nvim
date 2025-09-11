@@ -89,7 +89,7 @@ return {
           "shfmt",
         },
         auto_update = true,
-        run_on_start = true,
+        run_on_start = false,
       })
 
       -- 诊断信息显示
